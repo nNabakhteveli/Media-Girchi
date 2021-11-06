@@ -1,0 +1,18 @@
+.pin, .pin-important {
+    font-size: 1.35rem;
+    color: grey;
+    margin-left: 415px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .30s;
+    background: none;
+    border: none;
+}
+
+.pin:hover, .pin-important:hover {
+    color: black;
+}
+
+.pin-important {
+    margin-left: 0;
+}

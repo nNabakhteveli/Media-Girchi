@@ -1,0 +1,32 @@
+.outerContainer
+  .item
+    img(src='./assets/img/download')
+  .circle
+  
+// ======= Top Bar =======
+.big-nav
+  section.big-nav--section
+    .container.nav-section
+      .contact-info
+        i.bi.bi-envelope-fill
+        a(href='mailto:contact@example.com')
+          | info@girchi.com
+      .social-links
+        a.twitter(href='https://twitter.com/girchiparty' target='_blank')
+          i.bi.bi-twitter#twitter
+        a.facebook(href='https://www.facebook.com/GirchiParty/' target='_blank')
+          i.bi.bi-facebook#facebook
+        a.instagram(href='https://www.instagram.com/girchiparty/?hl=en' target='_blank')
+          i.bi.bi-instagram#instagram
+        a.youtube(href='https://www.youtube.com/channel/UC6o6176a756vk1nZuzAXy5g' target='_blank')
+          i.fab.fa-youtube#youtube
+
+  header.big-nav--header
+    .container.d-flex.align-items-center
+      nav#navbar.navbar
+        ul
+          li
+            a.nav-link#general(href='/') ზოგადი
+          li
+            a.nav-link#girchi(href='/girchi_news') გირჩი
+        i.fas.fa-bars
